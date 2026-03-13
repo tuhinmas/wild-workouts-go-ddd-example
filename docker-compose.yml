@@ -18,7 +18,7 @@ services:
       - ./internal:/internal
       - ./.go/pkg:/go/pkg
       - ./.go-cache:/go-cache
-#      - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
+    # - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
     working_dir: /internal
     ports:
       - "127.0.0.1:3000:$PORT"
@@ -38,7 +38,7 @@ services:
       - ./internal:/internal
       - ./.go/pkg:/go/pkg
       - ./.go-cache:/go-cache
-#      - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
+    # - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
     working_dir: /internal
     ports:
       - "127.0.0.1:3010:$PORT"
@@ -58,7 +58,7 @@ services:
       - ./internal:/internal
       - ./.go/pkg:/go/pkg
       - ./.go-cache:/go-cache
-#      - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
+    # - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
     working_dir: /internal
     ports:
       - "127.0.0.1:3001:$PORT"
@@ -77,7 +77,7 @@ services:
       - ./internal:/internal
       - ./.go/pkg:/go/pkg
       - ./.go-cache:/go-cache
-#      - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
+    # - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
     working_dir: /internal
     ports:
       - "127.0.0.1:3002:$PORT"
@@ -97,7 +97,7 @@ services:
       - ./internal:/internal
       - ./.go/pkg:/go/pkg
       - ./.go-cache:/go-cache
-#      - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
+    # - ./service-account-file.json:$SERVICE_ACCOUNT_FILE
     working_dir: /internal
     ports:
       - "127.0.0.1:3020:$PORT"
